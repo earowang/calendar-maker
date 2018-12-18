@@ -1,0 +1,20 @@
+Package: calendarmaker
+Version: 0.1.0
+Authors@R: 
+    person(given = "Earo",
+           family = "Wang",
+           role = c("aut", "cre"),
+           email = "earo.wang@gmail.com")
+License: MIT + file LICENSE
+Depends:
+    fs,
+    magick,
+    lubridate,
+    tidyverse,
+    extrafont,
+    sugrrants,
+    patchwork,
+    ggpomological
+Remotes:
+    thomasp85/patchwork,
+    gadenbuie/ggpomological
